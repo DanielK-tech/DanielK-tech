@@ -30,6 +30,6 @@ const profile = { name: "Daniel", aboutMe: \`Hi there! I'm an enthusiastic begin
 
 <a href="http://www.github.com/DanielK-tech"><img src="https://github-readme-streak-stats.herokuapp.com/?user=DanielK-tech&stroke=22c55e&background=1c1917&ring=ef4444&fire=ef4444&currStreakNum=22c55e&currStreakLabel=ef4444&sideNums=22c55e&sideLabels=22c55e&dates=22c55e&hide_border=true" /></a>
 
-<a href="http://www.github.com/DanielK-tech"><img src="https://github-readme-activity-graph.cyclic.app/graph?username=DanielK-tech&bg_color=1c1917&color=22c55e&line=ef4444&point=22c55e&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
+
 
 <a href="https://github.com/DanielK-tech" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DanielK-tech&langs_count=10&title_color=ef4444&text_color=22c55e&icon_color=ef4444&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
