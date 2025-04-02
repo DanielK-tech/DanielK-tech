@@ -26,15 +26,15 @@ Web Developer and Designer
     all the projects that lie ahead.
   `.replace(/\n\s+/g, '\n').trim(),  <br />
 ### }; <br />
-console.log("⚡️ Portfólio:", profile.name); <br />
+console.log("⚡️ Portfolio:", profile.name); <br />
 console.log("========================"); <br />
 console.log(profile.aboutMe); <br />
-console.log("\n🧩 Zájmy:"); <br />
-console.log("- Programování:", profile.interests.coding.description); <br />
-console.log(`  Aktuálně pracuji s: ${profile.interests.coding.technologies.join(", ")}`); <br />
-console.log("- Výzvy:", profile.interests.challenges.description); <br />
-console.log("\n🚀 Cesta:", profile.journey); <br />
-console.log("\n📬 Kontakt:"); <br />
+console.log("\n🧩 Interests:"); <br />
+console.log("- Programmingí:", profile.interests.coding.description); <br />
+console.log(`  Currently working with: ${profile.interests.coding.technologies.join(", ")}`); <br />
+console.log("- Challenges:", profile.interests.challenges.description); <br />
+console.log("\n🚀 Journey:", profile.journey); <br />
+console.log("\n📬 Contact:"); <br />
 profile.contact.forEach(item => console.log(`- ${item.type}: ${item.value}`));
 
 * 🌍  I'm based in Zlín
