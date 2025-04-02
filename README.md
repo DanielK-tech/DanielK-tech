@@ -5,15 +5,11 @@ Web Developer and Designer
 --------------------------
 
 const profile = {
-  name: "Daniel",
-  
-  // Sekce "O mně"
+  name: "Daniel",  
   aboutMe: `
     Ahoj! Jsem začínající nadšený programátor, který se nedávno ponořil do světa kódu.
     Mám vášeň pro psaní čistého kódu a neustále hledám nové výzvy, které mě posouvají dopředu.
-  `.replace(/\n\s+/g, '\n').trim(),
-
-  // Zájmy a koníčky
+  `.replace(/\n\s+/g, '\n').trim(),  
   interests: {
     coding: {
       description: "Miluji ten pocit, když vyřeším komplexní problém nebo vytvořím něco nového a užitečného.",
@@ -23,23 +19,17 @@ const profile = {
       description: "Baví mě učit se nové technologie a přístupy, které mi pomáhají zlepšovat dovednosti.",
       currentFocus: "Webový vývoj a algoritmy"
     }
-  },
-
-  // Vývojová cesta
+  },  
   journey: `
     S programováním jsem začal teprve nedávno, ale už vím, že je to něco,
     čemu se chci věnovat naplno. Každý den se učím něco nového a těším se
     na všechny projekty, které mě čekají.
-  `.replace(/\n\s+/g, '\n').trim(),
-
-  // Kontaktní informace
+  `.replace(/\n\s+/g, '\n').trim(),  
   contact: [
     { type: "GitHub", value: "https://github.com/tvuj-profil" },
     { type: "Email", value: "daniel@example.com" }
   ]
 };
-
-// Vylepšené zobrazení v konzoli
 console.log("⚡️ Portfólio:", profile.name);
 console.log("========================");
 console.log(profile.aboutMe);
