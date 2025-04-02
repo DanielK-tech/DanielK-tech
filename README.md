@@ -4,41 +4,37 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Web Developer and Designer
 --------------------------
 
-const profile = {
-  name: "Daniel",  
-  aboutMe: `
-    Ahoj! Jsem začínající nadšený programátor, který se nedávno ponořil do světa kódu.
-    Mám vášeň pro psaní čistého kódu a neustále hledám nové výzvy, které mě posouvají dopředu.
-  `.replace(/\n\s+/g, '\n').trim(),  
-  interests: {
-    coding: {
-      description: "Miluji ten pocit, když vyřeším komplexní problém nebo vytvořím něco nového a užitečného.",
-      technologies: ["JavaScript", "HTML/CSS", "Node.js"]
-    },
-    challenges: {
-      description: "Baví mě učit se nové technologie a přístupy, které mi pomáhají zlepšovat dovednosti.",
-      currentFocus: "Webový vývoj a algoritmy"
-    }
-  },  
-  journey: `
-    S programováním jsem začal teprve nedávno, ale už vím, že je to něco,
-    čemu se chci věnovat naplno. Každý den se učím něco nového a těším se
-    na všechny projekty, které mě čekají.
-  `.replace(/\n\s+/g, '\n').trim(),  
-  contact: [
-    { type: "GitHub", value: "https://github.com/tvuj-profil" },
-    { type: "Email", value: "daniel@example.com" }
-  ]
-};
-console.log("⚡️ Portfólio:", profile.name);
-console.log("========================");
-console.log(profile.aboutMe);
-console.log("\n🧩 Zájmy:");
-console.log("- Programování:", profile.interests.coding.description);
-console.log(`  Aktuálně pracuji s: ${profile.interests.coding.technologies.join(", ")}`);
-console.log("- Výzvy:", profile.interests.challenges.description);
-console.log("\n🚀 Cesta:", profile.journey);
-console.log("\n📬 Kontakt:");
+### const profile = { 
+ <b> name: </b> "Daniel", <br /> 
+ <b> aboutMe: </b> ` 
+    Hi there! I'm an enthusiastic beginner programmer who recently dove into the world of code.
+    I have a passion for writing clean code and constantly seek new challenges that push me forward.
+  `.replace(/\n\s+/g, '\n').trim(),  <br />
+ <b> interests: </b> { <br />
+   <b> coding: </b> { <br />
+    <b>  description: </b> "I love the feeling of solving complex problems or creating something new and useful.", <br />
+    <b>  technologies: </b> ["JavaScript", "HTML/CSS", "Node.js"]
+    }, <br />
+   <b> challenges: </b> { <br />
+    <b>  description: </b> "I enjoy learning new technologies and approaches that help me improve my skills.", <br />
+    <b>  currentFocus: </b> "Web development and algorithms"
+    } <br />
+  }, <br /> 
+ <b> journey: </b> `
+   I started programming only recently, but I already know it's something I want to
+    pursue wholeheartedly. Every day I learn something new and look forward to
+    all the projects that lie ahead.
+  `.replace(/\n\s+/g, '\n').trim(),  <br />
+### }; <br />
+console.log("⚡️ Portfólio:", profile.name); <br />
+console.log("========================"); <br />
+console.log(profile.aboutMe); <br />
+console.log("\n🧩 Zájmy:"); <br />
+console.log("- Programování:", profile.interests.coding.description); <br />
+console.log(`  Aktuálně pracuji s: ${profile.interests.coding.technologies.join(", ")}`); <br />
+console.log("- Výzvy:", profile.interests.challenges.description); <br />
+console.log("\n🚀 Cesta:", profile.journey); <br />
+console.log("\n📬 Kontakt:"); <br />
 profile.contact.forEach(item => console.log(`- ${item.type}: ${item.value}`));
 
 * 🌍  I'm based in Zlín
